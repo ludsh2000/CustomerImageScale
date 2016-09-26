@@ -1,0 +1,27 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "uniquePrefix": {
+      "value": "dfcfpocjr"
+    },
+    "numberOfSAs": {
+      "value": 2
+    },
+    "instanceCountPerSA": {
+      "value": 2
+    },
+    "imageLocation": {
+      "value": "https://jerrydfcfpoctf.blob.core.chinacloudapi.cn/newvhds/TF1201682314136.vhd"
+    },
+    "storageAccountKey": {
+      "value": "L8/phXvPYU1O8o1BJbYOLRghYDq2y0vEpqTcitsraznLFKlmL9krh8tBR6tIqLTwwxodv7+F4r/G+zTr1L7g2A=="
+    },
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "adminPassword": {
+      "value": "Password@1"
+    }
+  }
+}
